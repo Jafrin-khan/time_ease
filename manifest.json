@@ -1,0 +1,23 @@
+{
+  "manifest_version":2,
+  "name":"Timezone Finder",
+  "version":"2.0.1",
+  "description":"This is a chrome extension that displays your current time zone and allows you to perform verious basic needs at one place which will surely increase your productivity",
+  "author":"Jafrin Khan",
+  "icons":{
+    "128":"clock.png"
+  },
+
+  "browser_action":{
+    "default_popup":"popup.html",
+    "default_icon":"clock.png",
+    "default_title":"Tool Ease"
+  },
+
+  "permissions":["activeTab" , "https://v2.jokeapi.dev/" , "https://newsdata.io/"],
+  
+  "background":{
+    "scripts":["main.js"]
+  }
+
+}

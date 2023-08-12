@@ -1,0 +1,44 @@
+html,body{
+  text-align: center;
+  width:350px;
+  color:white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fa {
+  padding:15px;
+  font-size:45px;
+  color:white;
+}
+
+.fa-twitter:hover{
+  color:red;
+}
+
+ .fa-whatsapp:hover{
+  color:orange;
+}
+
+ .fa-linkedin:hover{
+  color:skyblue;
+}
+
+.fa-github:hover{
+  color:orange;
+}
+
+.h4{
+   padding: 5px;
+   position : relative;
+   margin-top: 20px;
+}
+
+* {
+     box-sizing: border-box;
+}
+body {
+     background-image: url('./images/bg.jpg');
+  }
