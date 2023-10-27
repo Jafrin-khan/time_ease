@@ -14,7 +14,7 @@
     "default_title":"Tool Ease"
   },
 
-  "permissions":["activeTab" , "https://v2.jokeapi.dev/" , "https://newsdata.io/"],
+  "permissions":["activeTab" , "https://v2.jokeapi.dev/" , "https://newsdata.io/","https://api.openai.com/"],
   
   "background":{
     "scripts":["main.js"]
